@@ -8,8 +8,7 @@ public class HomeActivity extends BaseAcitvity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.replaceContentLayout(R.layout.home_toolbar_layout, R.id.base_appBar);
-        super.inItNavigationDrawer(R.id.home_toolbar);
+        super.inItNavigationDrawer();
         super.inItbottomNavigationModule();
 
     }
